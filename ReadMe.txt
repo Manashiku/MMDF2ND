@@ -6,8 +6,8 @@
 			- Load the model in PMX editor and put the Specular texture in the SPA slot.
 			- Put the Curve texture in the toon slot 
 			- Load the model in MMD and load this shader on it
-			
-			- FOR THE NOSE ONLY: use nose.fx on the nose material
+			- Turn on subset-extract, find the nose material, load the nose.fx file on it
+
 			
 		Notes :
 			- If you use, credit me. I don't care if you've got beef with me or something, credit me for the work I'e done. 
