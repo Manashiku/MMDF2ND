@@ -5,7 +5,6 @@
 // ive written this damn thing too many times
 // you'd think i was done after the first time but apparently i just cant stand my own code after a few months
 // for how to use, see the readme
-#define GLOBAL_RIM_INT 1.0
 
 // matrices :
 float4x4 mmd_wvp        : WORLDVIEWPROJECTION;
