@@ -99,7 +99,7 @@ float4 ps_0(vs_out i, float vface : VFACE)  : COLOR
     float ndoth   = max(0, pow(dot(normal, h), 1));; // specular
     
     // use ndotl, ndotv, and ndoth as the uv mapping for their respective ramp textures
-    // ramps are in an atlas texture and v gets a special value so it reads acrossed the center of where it needs to be
+    // ramps are in an atlas texture and v gets a special value so it reads across the center of where it needs to be
     // this makes it so you dont need to split the texture up into separate ramps.. 
     // saves space and time since that makes it so you dont have to make material specific control files 
     // laziness wins again!
