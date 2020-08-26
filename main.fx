@@ -159,7 +159,7 @@ float4 ps_0(vs_out i, float vface : VFACE)  : COLOR
 {
     // generate useful aliases 
     float3 eye    = normalize(i.eye);
-    float3 normal = i.normal;
+    float3 normal = normalize(i.normal); //normalizing this here in the pixel shader helps with preventing the weird blocky specular highlights
     float2 uv     = i.uv;
     float3 add_lightDir = SPECULAR_ADD_LIGHT_DIRECTION;
     float3 h = normalize(eye + (lightDirection + add_lightDir));
