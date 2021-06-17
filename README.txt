@@ -1,4 +1,4 @@
- ## **!! Don't use this shader (or any of my shaders), in any capacity, if you aren't going to credit me for my work. That includes referencing the code or even copy/paste-ing it into another shader. !!**
+ ## Don't use this shader (or any of my shaders), in any capacity, if you aren't going to credit me for my work. That includes referencing the code or even copy/paste-ing it into another shader. ##
 			
 			-- Project diva F2nd like shader for MMD --
 		MMD shader written to replicate the look of Project diva F2nd 
